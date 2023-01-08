@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edição de Colunas</title>
+</head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            text-align: center;
+            display: block;
+            margin: auto;
+        }
+        caption{
+            font-weight: bolder;
+            font-size: 1.3em;
+            padding: 10px;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th{
+            font-weight: bolder;
+        }
+        .cnome{
+            background-color: lightblue;
+        }
+    
+        .csexo{
+            background-color: lightgreen;
+        }
+        .cidade{
+            background-color: lightsalmon;
+        }
+        .cprof{
+            background-color: lightgrey;
+        }
+    </style>
+
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" >
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>    
+            <td>Elias</td>
+            <td>M</td>
+            <td>15</td>
+            <td>Aluno</td>
+
+        </tr>
+        <tr>
+            <td>Cláudio</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>37</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Patrícia</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Victor</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Polícial</td>
+        </tr>
+    </table>
+</body>
+</html>
